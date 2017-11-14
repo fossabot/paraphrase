@@ -1,0 +1,30 @@
+{
+  "name": "paraphrase",
+  "version": "1.1.0",
+  "author": "Fiverr",
+  "license": "MIT",
+  "description": "Create flavoured string phraser",
+  "engines": {
+    "node": ">=6.9.4",
+    "npm": "~3.10.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiverr/paraphrase.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test.js --inspect",
+    "prepublishOnly": "npm t",
+    "preversion": "npm t",
+    "postversion": "echo \"😶\""
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "tag-version-prefix": ""
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  }
+}
