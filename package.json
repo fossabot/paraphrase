@@ -1,0 +1,27 @@
+{
+  "name": "paraphrase",
+  "version": "1.2.0",
+  "author": "Omri",
+  "license": "MIT",
+  "description": "Create flavoured string phraser",
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omrilotan/paraphrase.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js lib/**/test.js --inspect",
+    "prepublishOnly": "npm t"
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "tag-version-prefix": ""
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
