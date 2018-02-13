@@ -1,4 +1,5 @@
 # paraphrase [![npm version](https://img.shields.io/npm/v/paraphrase.svg)](https://www.npmjs.com/package/paraphrase)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fomrilotan%2Fparaphrase.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fomrilotan%2Fparaphrase?ref=badge_shield)
 
 ## String template interpolation
 
@@ -75,3 +76,7 @@ const phrase = require('paraphrase/hash');
 
 phrase('Hello, #{name}', {name: 'Martin'}); // Hello, Martin
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fomrilotan%2Fparaphrase.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fomrilotan%2Fparaphrase?ref=badge_large)
